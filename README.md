@@ -43,7 +43,7 @@ El modelo de Clínica Salud Viva de la sección 5 de la guía también está dis
 2. `File → Import → ArchiMate Model Exchange File...`
 3. Seleccione el archivo `.xml`.
 
-⚠️ Este archivo se escribió siguiendo el esquema oficial pero no se verificó abriéndolo en Archi — si al importar da error, es más rápido recrear el modelo a mano (son solo 7 elementos y 6 relaciones, los mismos de la sección 5 de la guía) que depurar el XML. Si lo prueba y funciona (o no), avise para corregir el archivo.
+⚠️ Este archivo se escribió siguiendo el esquema oficial (`archimate3_Model.xsd` de The Open Group) y se corrigió tras una primera prueba de importación real en Archi. Si al importar sigue dando error, es más rápido recrear el modelo a mano (son solo 7 elementos y 6 relaciones, los mismos de la sección 5 de la guía) que seguir depurando el XML.
 
 ---
 
