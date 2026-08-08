@@ -32,8 +32,18 @@ Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate eq
 ## 🧰 Herramientas sugeridas
 
 - **[Archi](https://www.archimatetool.com/)** — gratuito, dedicado exclusivamente a ArchiMate.
-- **draw.io** — biblioteca de formas "ArchiMate 3" disponible en el panel de formas.
+- **draw.io** — biblioteca de formas "ArchiMate 3" disponible en el panel de formas. Es la que ya usa el resto del curso para BPMN/C4/ERD, así que no exige aprender una herramienta nueva.
 - **Astah Archimate** — ver el repositorio [`AREM-astah`](https://github.com/CesarAVegaF312/AREM-astah).
+
+### Ejemplo importable en Archi
+
+El modelo de Clínica Salud Viva de la sección 5 de la guía también está disponible como [`ejemplo-clinica-salud-viva-exchange.xml`](ejemplo-clinica-salud-viva-exchange.xml), en el **formato estándar de intercambio de ArchiMate** (Model Exchange File Format de The Open Group). Para abrirlo:
+
+1. Instale Archi y ábralo.
+2. `File → Import → ArchiMate Model Exchange File...`
+3. Seleccione el archivo `.xml`.
+
+⚠️ Este archivo se escribió siguiendo el esquema oficial pero no se verificó abriéndolo en Archi — si al importar da error, es más rápido recrear el modelo a mano (son solo 7 elementos y 6 relaciones, los mismos de la sección 5 de la guía) que depurar el XML. Si lo prueba y funciona (o no), avise para corregir el archivo.
 
 ---
 
