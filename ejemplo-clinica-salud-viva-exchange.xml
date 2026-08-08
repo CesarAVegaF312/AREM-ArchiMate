@@ -31,22 +31,22 @@
   </elements>
 
   <relationships>
-    <relationship identifier="id-rel-stakeholder-goal" source="id-stakeholder" target="id-goal" xsi:type="AssociationRelationship">
+    <relationship identifier="id-rel-stakeholder-goal" source="id-stakeholder" target="id-goal" xsi:type="Association">
       <name xml:lang="es">define</name>
     </relationship>
-    <relationship identifier="id-rel-process-goal" source="id-process" target="id-goal" xsi:type="RealizationRelationship">
+    <relationship identifier="id-rel-process-goal" source="id-process" target="id-goal" xsi:type="Realization">
       <name xml:lang="es">realiza</name>
     </relationship>
-    <relationship identifier="id-rel-actor-process" source="id-actor" target="id-process" xsi:type="AssignmentRelationship">
+    <relationship identifier="id-rel-actor-process" source="id-actor" target="id-process" xsi:type="Assignment">
       <name xml:lang="es">participa en</name>
     </relationship>
-    <relationship identifier="id-rel-component-process" source="id-component" target="id-process" xsi:type="ServingRelationship">
+    <relationship identifier="id-rel-component-process" source="id-component" target="id-process" xsi:type="Serving">
       <name xml:lang="es">sirve a</name>
     </relationship>
-    <relationship identifier="id-rel-component-dataobject" source="id-component" target="id-dataobject" xsi:type="AccessRelationship">
+    <relationship identifier="id-rel-component-dataobject" source="id-component" target="id-dataobject" xsi:type="Access">
       <name xml:lang="es">accede a</name>
     </relationship>
-    <relationship identifier="id-rel-node-component" source="id-node" target="id-component" xsi:type="AssignmentRelationship">
+    <relationship identifier="id-rel-node-component" source="id-node" target="id-component" xsi:type="Assignment">
       <name xml:lang="es">asignado a</name>
     </relationship>
   </relationships>
