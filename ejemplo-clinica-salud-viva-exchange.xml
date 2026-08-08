@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Model.xsd"
+       identifier="id-model-clinica-salud-viva">
+  <name xml:lang="es">Clínica Salud Viva - Ejemplo ArchiMate (curso AREM)</name>
+  <documentation xml:lang="es">Ejemplo guiado de la sección 5 de la Guía de Notación ArchiMate: integra en un solo modelo lo que en el curso se construyó por separado en el Taller 0 (Motivación), Taller 1 (Negocio/BPMN) y Taller 2 (Aplicación/Datos).</documentation>
+
+  <elements>
+    <element identifier="id-stakeholder" xsi:type="Stakeholder">
+      <name xml:lang="es">Dirección de la Clínica</name>
+    </element>
+    <element identifier="id-goal" xsi:type="Goal">
+      <name xml:lang="es">Reducir el tiempo de espera en agendamiento</name>
+    </element>
+    <element identifier="id-actor" xsi:type="BusinessActor">
+      <name xml:lang="es">Paciente</name>
+    </element>
+    <element identifier="id-process" xsi:type="BusinessProcess">
+      <name xml:lang="es">Agendamiento de Citas Médicas</name>
+    </element>
+    <element identifier="id-component" xsi:type="ApplicationComponent">
+      <name xml:lang="es">Sistema de Citas</name>
+    </element>
+    <element identifier="id-dataobject" xsi:type="DataObject">
+      <name xml:lang="es">Cita</name>
+    </element>
+    <element identifier="id-node" xsi:type="Node">
+      <name xml:lang="es">Servidor de Aplicaciones</name>
+    </element>
+  </elements>
+
+  <relationships>
+    <relationship identifier="id-rel-stakeholder-goal" source="id-stakeholder" target="id-goal" xsi:type="AssociationRelationship">
+      <name xml:lang="es">define</name>
+    </relationship>
+    <relationship identifier="id-rel-process-goal" source="id-process" target="id-goal" xsi:type="RealizationRelationship">
+      <name xml:lang="es">realiza</name>
+    </relationship>
+    <relationship identifier="id-rel-actor-process" source="id-actor" target="id-process" xsi:type="AssignmentRelationship">
+      <name xml:lang="es">participa en</name>
+    </relationship>
+    <relationship identifier="id-rel-component-process" source="id-component" target="id-process" xsi:type="ServingRelationship">
+      <name xml:lang="es">sirve a</name>
+    </relationship>
+    <relationship identifier="id-rel-component-dataobject" source="id-component" target="id-dataobject" xsi:type="AccessRelationship">
+      <name xml:lang="es">accede a</name>
+    </relationship>
+    <relationship identifier="id-rel-node-component" source="id-node" target="id-component" xsi:type="AssignmentRelationship">
+      <name xml:lang="es">asignado a</name>
+    </relationship>
+  </relationships>
+</model>
