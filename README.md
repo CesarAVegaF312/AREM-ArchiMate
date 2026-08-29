@@ -12,6 +12,10 @@ Este repositorio contiene la guía de referencia de **ArchiMate**, el estándar 
 
 Revise la [**Guía de Notación ArchiMate**](guia_notacion_archimate.md). Incluye las 5 capas (Motivación, Negocio, Aplicación, Tecnología, Implementación y Migración) con su código de color, los elementos principales de cada una, las relaciones semánticas correctas, una metodología de 4 pasos para construir una vista, un ejemplo completo integrando el caso de la Clínica Salud Viva (Talleres 1 y 2), errores comunes y checklist de autoevaluación.
 
+## 🤖 Patrón: Sistemas Agénticos
+
+Si el AS-IS o el TO-BE del cliente incluye (o propone) un agente de IA, revise el [**Patrón: Modelando Sistemas Agénticos**](patron_sistemas_agenticos.md). No agrega una capa nueva a ArchiMate — muestra cómo representar el patrón orquestador + herramientas + modelo de lenguaje con los elementos ya conocidos, y qué riesgos propios de estos sistemas (alucinación, prompt injection, autonomía sin supervisión, costo descontrolado) hay que evaluar además de STRIDE. Es opcional: solo aplica cuando el cliente real tiene o propone un componente agéntico.
+
 ## 🔗 Cómo se conecta con los demás talleres
 
 Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate equivalente"** que muestra cómo el diagrama de ese taller (BPMN, ERD, C4, mapa de infraestructura, tabla STRIDE, checklist normativo, matriz de brechas, tablero integrado o roadmap de implementación) se traduce a elementos y relaciones de ArchiMate. Esa sección siempre remite aquí para la notación completa — no la repite.
