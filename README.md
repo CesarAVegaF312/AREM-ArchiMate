@@ -18,7 +18,7 @@ Si el AS-IS o el TO-BE del cliente incluye (o propone) un agente de IA, revise e
 
 ## 🔗 Cómo se conecta con los demás talleres
 
-Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate equivalente"** que muestra cómo el diagrama de ese taller (BPMN, ERD, C4, mapa de infraestructura, tabla STRIDE, checklist normativo, matriz de brechas, tablero integrado o roadmap de implementación) se traduce a elementos y relaciones de ArchiMate. Esa sección siempre remite aquí para la notación completa — no la repite.
+Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate equivalente"** (en el Taller 9, **"Vistas ArchiMate"**, que además son entregables obligatorios) que muestra cómo el diagrama de ese taller (BPMN, ERD, C4, mapa de infraestructura, tabla STRIDE, checklist normativo, matriz de brechas, tablero integrado o roadmap de implementación) se traduce a elementos y relaciones de ArchiMate. Esa sección siempre remite aquí para la notación completa — no la repite.
 
 | Taller | Capa(s) ArchiMate principal(es) |
 |---|---|
@@ -31,7 +31,7 @@ Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate eq
 | 6 — Normatividad | Motivación (Requirement / Constraint) |
 | 7 — Opportunities & Solutions | Implementación y Migración (Plateau / Gap) |
 | 8 — Integración de Vistas | Las 4 capas estructurales en una sola vista |
-| 9 — Presentación Final | Implementación y Migración (Work Package) |
+| 9 — Presentación Final | Implementación y Migración (Work Package) y Motivación (Goal / Principle / Requirement) — **ambas vistas son entregables obligatorios** |
 
 ## 🧰 Herramientas sugeridas
 
