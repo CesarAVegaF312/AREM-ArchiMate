@@ -31,6 +31,7 @@ No hay una capa de "seguridad" ni de "normatividad" — los hallazgos de los Tal
 | Goal | Un objetivo estratégico de alto nivel | "Reducir el tiempo de espera en agendamiento" |
 | Requirement | Algo que la arquitectura debe cumplir | "El sistema debe cifrar datos de pago" (viene del Taller 5) |
 | Constraint | Una restricción que limita el diseño | "No se puede cambiar el ERP en 2025" (viene de la Ficha, Taller 0) |
+| Principle | Una regla general que orienta todas las decisiones de diseño | "API First" (viene del plan de gobernanza, Taller 9) |
 
 ### Negocio (amarillo)
 
@@ -81,6 +82,8 @@ No hay una capa de "seguridad" ni de "normatividad" — los hallazgos de los Tal
 | Flow | flecha punteada | Traslado de información o valor | Datos de la cita *fluyen* hacia Facturación |
 | Access | línea punteada simple | Un elemento lee/escribe un dato | Sistema de Citas *accede* al Data Object Cita |
 | Composition / Aggregation | línea con diamante | Un elemento es parte de otro | Motor de Rutas *es parte de* Plataforma RedExpress |
+| Association | línea simple, sin flecha | Relación genérica: úsela solo cuando no exista un verbo más preciso, o cuando la notación no permita otro (un Gap solo se asocia con sus Plateaus y con el Work Package que lo cierra) | Gap "Falta sincronización" *asociado a* Plateau AS-IS y Plateau TO-BE |
+| Influence | flecha punteada (con + o − opcional) | Un elemento de motivación afecta a otro, sin realizarlo | Driver "Nueva regulación" *influye en* el Goal "Cumplir Ley 1581" |
 
 ---
 
