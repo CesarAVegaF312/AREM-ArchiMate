@@ -24,7 +24,7 @@ Astah UML es una de las dos herramientas que los talleres aceptan para modelar, 
 
 ## Primer diagrama: sistema de citas médicas
 
-**Objetivo:** modelar un sistema simple en el que un `Paciente` agenda una `Cita` con un `Médico`. Es el mismo dominio del caso Clínica Salud Viva de los Talleres 1 y 2.
+**Objetivo:** modelar un sistema simple en el que un `Paciente` agenda una `Cita` con un `Médico`. Es el mismo dominio del caso Fundación Salud Viva de los Talleres 1 y 2.
 
 1. Abra Astah UML y seleccione `File → New`.
 2. Cree un `Class Diagram` desde el panel izquierdo.

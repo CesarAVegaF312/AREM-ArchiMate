@@ -2,8 +2,8 @@
 <model xmlns="http://www.opengroup.org/xsd/archimate/3.0/"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Model.xsd"
-       identifier="id-model-clinica-salud-viva">
-  <name xml:lang="es">Clínica Salud Viva - Ejemplo ArchiMate (curso AREM)</name>
+       identifier="id-model-fundacion-salud-viva">
+  <name xml:lang="es">Fundación Salud Viva - Ejemplo ArchiMate (curso AREM)</name>
   <documentation xml:lang="es">Ejemplo guiado de la sección 5 de la Guía de Notación ArchiMate: integra en un solo modelo lo que en el curso se construyó por separado en el Taller 0 (Motivación), Taller 1 (Negocio/BPMN) y Taller 2 (Aplicación/Datos).</documentation>
 
   <elements>

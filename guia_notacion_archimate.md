@@ -96,7 +96,7 @@ No hay una capa de "seguridad" ni de "normatividad" — los hallazgos de los Tal
 
 ---
 
-## 5. Ejemplo guiado: Clínica Salud Viva en ArchiMate
+## 5. Ejemplo guiado: Fundación Salud Viva en ArchiMate
 
 Se integra en una sola vista lo que hasta ahora vivía separado entre el Taller 1 (BPMN) y el Taller 2 (ERD/Contexto): el objetivo estratégico que motiva el proceso, el proceso mismo, el sistema que lo soporta y la infraestructura sobre la que corre.
 
