@@ -146,7 +146,7 @@ Nótese lo que **no** está en esta vista: los pasos internos del proceso (eso e
 
 - **[Archi](https://www.archimatetool.com/)** — gratuito, dedicado exclusivamente a ArchiMate. Recomendado si el equipo quiere validación formal de la notación.
 - **draw.io** — tiene una plantilla de formas ArchiMate (`Extras → Edit Diagram` o la biblioteca "ArchiMate 3" en el panel de formas). Útil si el equipo ya lo usa para BPMN/C4 y quiere mantener todo en una sola herramienta.
-- **Astah Archimate** — ver el repositorio [`AREM-astah`](https://github.com/CesarAVegaF312/AREM-astah) para la guía de instalación de la suite Astah.
+- **Astah UML** — para diagramas UML con validación formal; ver [`herramientas/astah_uml.md`](herramientas/astah_uml.md).
 
 ---
 
