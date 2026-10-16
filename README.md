@@ -6,7 +6,7 @@ Este repositorio contiene la guía de referencia de **ArchiMate**, el estándar 
 
 ## 🧩 ¿Qué es ArchiMate y por qué es el estándar del curso?
 
-[ArchiMate](https://www.opengroup.org/archimate-forum) es el lenguaje de modelado de arquitectura empresarial del Open Group, el mismo consorcio detrás de TOGAF. Mientras **TOGAF ADM** define el *método* — la secuencia de fases que ya siguen los Talleres 0 a 9 —, **ArchiMate** define el *lenguaje* — la notación común con la que se documenta cada capa (negocio, aplicación, tecnología) para que cualquier persona del comité pueda leerla, sin importar qué taller la produjo.
+[ArchiMate](https://www.opengroup.org/archimate-forum) es el lenguaje de modelado de arquitectura empresarial del Open Group, el mismo consorcio detrás de TOGAF. Mientras el **ADM de TOGAF** (TOGAF Standard, 10th Edition) define el *método* — la secuencia de fases que ya siguen los Talleres 0 a 9 —, **ArchiMate** define el *lenguaje* — la notación común con la que se documenta cada capa (negocio, aplicación, tecnología) para que cualquier persona del comité pueda leerla, sin importar qué taller la produjo.
 
 ## 📘 Guía de notación
 

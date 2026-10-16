@@ -1,8 +1,8 @@
 # 🧭 Guía de Notación ArchiMate
 
-ArchiMate es el **estándar principal de modelado** de este curso: cada capa de la arquitectura (negocio, aplicación, tecnología) se documenta con ArchiMate, apoyándose en BPMN, ERD y C4 cuando se necesite el detalle que ArchiMate no está pensado para dar.
+ArchiMate es el **estándar principal de modelado** de este curso. La versión que se usa es **ArchiMate 3.2**, la que implementa Archi; ArchiMate 4 se publicó el 27 de abril de 2026 (The Open Group) y el curso sigue en 3.2 hasta que las herramientas lo soporten. En este curso, cada capa de la arquitectura (negocio, aplicación, tecnología) se documenta con ArchiMate, apoyándose en BPMN, ERD y C4 cuando se necesite el detalle que ArchiMate no está pensado para dar.
 
-**TOGAF y ArchiMate no compiten, se complementan:** TOGAF ADM es el *método* — la secuencia de fases que ya siguen los Talleres 0 a 9. ArchiMate es el *lenguaje* — la notación con la que se dibuja lo que cada fase produce. Por eso cada guía del curso incluye ahora una sección "Vista ArchiMate equivalente": no reemplaza el BPMN/C4/ERD que ya construyó, muestra cómo ese mismo trabajo se ve con el lenguaje común que debe leer cualquier persona del comité, sin importar qué taller lo produjo.
+**TOGAF y ArchiMate no compiten, se complementan:** el ADM de TOGAF (TOGAF Standard, 10th Edition) es el *método* — la secuencia de fases que ya siguen los Talleres 0 a 9. ArchiMate es el *lenguaje* — la notación con la que se dibuja lo que cada fase produce. Por eso cada guía del curso incluye ahora una sección "Vista ArchiMate equivalente": no reemplaza el BPMN/C4/ERD que ya construyó, muestra cómo ese mismo trabajo se ve con el lenguaje común que debe leer cualquier persona del comité, sin importar qué taller lo produjo.
 
 ---
 
@@ -11,6 +11,7 @@ ArchiMate es el **estándar principal de modelado** de este curso: cada capa de 
 | Capa | Color estándar | Qué modela | Se usa principalmente en |
 |---|---|---|---|
 | Motivación | Lila | Por qué se hace algo: stakeholders, objetivos, requerimientos | Taller 0 |
+| Estrategia | Marrón claro | Qué sabe hacer la organización y con qué: Capability, Resource, Course of Action | Taller 7 (sección 4.1, agrupar brechas por capacidad) |
 | Negocio | Amarillo | Quién hace qué en la organización: actores, procesos, servicios | Taller 1 |
 | Aplicación | Azul | Qué sistemas soportan al negocio: componentes, servicios, datos | Talleres 2 y 3 |
 | Tecnología | Verde | Sobre qué infraestructura corre todo: nodos, dispositivos, redes | Taller 4 |
@@ -30,7 +31,7 @@ No hay una capa de "seguridad" ni de "normatividad" — los hallazgos de los Tal
 | Driver | Una fuerza interna o externa que motiva el cambio | Presión competitiva, nueva regulación |
 | Goal | Un objetivo estratégico de alto nivel | "Reducir el tiempo de espera en agendamiento" |
 | Requirement | Algo que la arquitectura debe cumplir | "El sistema debe cifrar datos de pago" (viene del Taller 5) |
-| Constraint | Una restricción que limita el diseño | "No se puede cambiar el ERP en 2025" (viene de la Ficha, Taller 0) |
+| Constraint | Una restricción que limita el diseño | "No se puede cambiar el ERP en 2026" (viene de la Ficha, Taller 0) |
 | Principle | Una regla general que orienta todas las decisiones de diseño | "API First" (viene del plan de gobernanza, Taller 9) |
 
 ### Negocio (amarillo)
@@ -145,7 +146,7 @@ Nótese lo que **no** está en esta vista: los pasos internos del proceso (eso e
 ## 6. Herramientas sugeridas
 
 - **[Archi](https://www.archimatetool.com/)** — gratuito, dedicado exclusivamente a ArchiMate. Recomendado si el equipo quiere validación formal de la notación.
-- **draw.io** — tiene una plantilla de formas ArchiMate (`Extras → Edit Diagram` o la biblioteca "ArchiMate 3" en el panel de formas). Útil si el equipo ya lo usa para BPMN/C4 y quiere mantener todo en una sola herramienta.
+- **draw.io** — tiene una plantilla de formas ArchiMate (`Extras → Edit Diagram` o la biblioteca "ArchiMate 3" en el panel de formas, que cubre la notación 3.x). Útil si el equipo ya lo usa para BPMN/C4 y quiere mantener todo en una sola herramienta.
 - **Astah Archimate** — ver el repositorio [`AREM-astah`](https://github.com/CesarAVegaF312/AREM-astah) para la guía de instalación de la suite Astah.
 
 ---
