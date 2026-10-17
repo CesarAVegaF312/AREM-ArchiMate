@@ -22,14 +22,14 @@ Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate eq
 
 | Taller | Capa(s) ArchiMate principal(es) |
 |---|---|
-| 0 — Preliminary y Vision | Motivación |
+| 0 — Preliminary y Vision | Motivación (Goal, Constraint, Principle en borrador) y Estrategia (Capability) |
 | 1 — BPMN | Negocio |
 | 2 — Modelo de Información | Negocio + Aplicación (datos) |
 | 3 — Arquitectura C4 | Aplicación |
 | 4 — Infraestructura | Tecnología |
 | 5 — STRIDE | Motivación (Requirement) |
 | 6 — Normatividad | Motivación (Requirement / Constraint) |
-| 7 — Opportunities & Solutions | Implementación y Migración (Plateau / Gap) |
+| 7 — Opportunities & Solutions | Implementación y Migración (Plateau / Gap) y Estrategia (Capability, madurada desde el Taller 0) |
 | 8 — Integración de Vistas | Las 4 capas estructurales en una sola vista |
 | 9 — Presentación Final | Implementación y Migración (Work Package) y Motivación (Goal / Principle / Requirement) — **ambas vistas son entregables obligatorios** |
 

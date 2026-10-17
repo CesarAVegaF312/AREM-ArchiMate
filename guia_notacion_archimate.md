@@ -32,7 +32,7 @@ No hay una capa de "seguridad" ni de "normatividad" — los hallazgos de los Tal
 | Goal | Un objetivo estratégico de alto nivel | "Reducir el tiempo de espera en agendamiento" |
 | Requirement | Algo que la arquitectura debe cumplir | "El sistema debe cifrar datos de pago" (viene del Taller 5) |
 | Constraint | Una restricción que limita el diseño | "No se puede cambiar el ERP en 2026" (viene de la Ficha, Taller 0) |
-| Principle | Una regla general que orienta todas las decisiones de diseño | "API First" (viene del plan de gobernanza, Taller 9) |
+| Principle | Una regla general que orienta todas las decisiones de diseño | "API First" (nace en borrador en la Visión, Taller 0; se confirma en el plan de gobernanza, Taller 9) |
 
 ### Negocio (amarillo)
 
