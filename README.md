@@ -53,4 +53,4 @@ Este archivo se escribió siguiendo el esquema oficial (`archimate3_Model.xsd` d
 
 ## Licencia
 
-Este repositorio es de uso académico bajo licencia MIT. Hace parte del curso de Arquitectura Empresarial - Universidad de La Sabana.
+© César Augusto Vega Fernández. Material del curso Arquitectura Empresarial, Universidad de La Sabana, bajo licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
