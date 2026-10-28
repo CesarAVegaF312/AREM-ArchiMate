@@ -1,4 +1,4 @@
-# 🧭 Guía de Notación ArchiMate
+# Guía de Notación ArchiMate
 
 ArchiMate es el **estándar principal de modelado** de este curso. La versión que se usa es **ArchiMate 3.2**, la que implementa Archi; ArchiMate 4 se publicó el 27 de abril de 2026 (The Open Group) y el curso sigue en 3.2 hasta que las herramientas lo soporten. En este curso, cada capa de la arquitectura (negocio, aplicación, tecnología) se documenta con ArchiMate, apoyándose en BPMN, ERD y C4 cuando se necesite el detalle que ArchiMate no está pensado para dar.
 
@@ -105,11 +105,11 @@ Se integra en una sola vista lo que hasta ahora vivía separado entre el Taller 
 flowchart TD
     subgraph motivacion["Motivación"]
         stakeholder(["Dirección de la Clínica"])
-        goal(["🎯 Reducir el tiempo de espera en agendamiento"])
+        goal(["Reducir el tiempo de espera en agendamiento"])
     end
 
     subgraph negocio["Negocio"]
-        actor(["🧑 Paciente"])
+        actor(["Paciente"])
         proceso["Agendamiento de Citas Médicas"]
     end
 
