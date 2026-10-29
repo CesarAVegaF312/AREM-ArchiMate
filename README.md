@@ -10,7 +10,7 @@ Este repositorio contiene la guía de referencia de **ArchiMate**, el estándar 
 
 ## Guía de notación
 
-Revise la [**Guía de Notación ArchiMate**](guia_notacion_archimate.md). Incluye las 5 capas (Motivación, Negocio, Aplicación, Tecnología, Implementación y Migración) con su código de color, los elementos principales de cada una, las relaciones semánticas correctas, una metodología de 4 pasos para construir una vista, un ejemplo completo integrando el caso de la Clínica Salud Viva (Talleres 1 y 2), errores comunes y checklist de autoevaluación.
+Revise la [**Guía de Notación ArchiMate**](guia_notacion_archimate.md). Incluye las 5 capas (Motivación, Negocio, Aplicación, Tecnología, Implementación y Migración) con su código de color, los elementos principales de cada una, las relaciones semánticas correctas, una metodología de 4 pasos para construir una vista, un ejemplo completo integrando el caso de la Fundación Salud Viva (Talleres 1 y 2), errores comunes y checklist de autoevaluación.
 
 ## Patrón: Sistemas Agénticos
 
@@ -37,11 +37,11 @@ Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate eq
 
 - **[Archi](https://www.archimatetool.com/)** — gratuito, dedicado exclusivamente a ArchiMate.
 - **draw.io** — biblioteca de formas "ArchiMate 3" disponible en el panel de formas. Es la que ya usa el resto del curso para BPMN/C4/ERD, así que no exige aprender una herramienta nueva.
-- **Astah Archimate** — ver el repositorio [`AREM-astah`](https://github.com/CesarAVegaF312/AREM-astah).
+- **Astah UML** — para diagramas UML con validación formal. Instalación y primer diagrama en [`herramientas/astah_uml.md`](herramientas/astah_uml.md).
 
 ### Ejemplo importable en Archi
 
-El modelo de Clínica Salud Viva de la sección 5 de la guía también está disponible como [`ejemplo-clinica-salud-viva-exchange.xml`](ejemplo-clinica-salud-viva-exchange.xml), en el **formato estándar de intercambio de ArchiMate** (Model Exchange File Format de The Open Group). Para abrirlo:
+El modelo de Fundación Salud Viva de la sección 5 de la guía también está disponible como [`ejemplo-fundacion-salud-viva-exchange.xml`](ejemplo-fundacion-salud-viva-exchange.xml), en el **formato estándar de intercambio de ArchiMate** (Model Exchange File Format de The Open Group). Para abrirlo:
 
 1. Instale Archi y ábralo.
 2. `File → Import → ArchiMate Model Exchange File...`
