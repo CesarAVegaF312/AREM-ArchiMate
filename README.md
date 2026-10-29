@@ -6,7 +6,7 @@ Este repositorio contiene la guía de referencia de **ArchiMate**, el estándar 
 
 ## ¿Qué es ArchiMate y por qué es el estándar del curso?
 
-[ArchiMate](https://www.opengroup.org/archimate-forum) es el lenguaje de modelado de arquitectura empresarial del Open Group, el mismo consorcio detrás de TOGAF. Mientras **TOGAF ADM** define el *método* — la secuencia de fases que ya siguen los Talleres 0 a 9 —, **ArchiMate** define el *lenguaje* — la notación común con la que se documenta cada capa (negocio, aplicación, tecnología) para que cualquier persona del comité pueda leerla, sin importar qué taller la produjo.
+[ArchiMate](https://www.opengroup.org/archimate-forum) es el lenguaje de modelado de arquitectura empresarial del Open Group, el mismo consorcio detrás de TOGAF. Mientras el **ADM de TOGAF** (TOGAF Standard, 10th Edition) define el *método* — la secuencia de fases que ya siguen los Talleres 0 a 9 —, **ArchiMate** define el *lenguaje* — la notación común con la que se documenta cada capa (negocio, aplicación, tecnología) para que cualquier persona del comité pueda leerla, sin importar qué taller la produjo.
 
 ## Guía de notación
 
@@ -22,14 +22,14 @@ Cada guía del curso (Talleres 0 a 9) incluye una sección **"Vista ArchiMate eq
 
 | Taller | Capa(s) ArchiMate principal(es) |
 |---|---|
-| 0 — Preliminary y Vision | Motivación |
+| 0 — Preliminary y Vision | Motivación (Goal, Constraint, Principle en borrador) y Estrategia (Capability) |
 | 1 — BPMN | Negocio |
 | 2 — Modelo de Información | Negocio + Aplicación (datos) |
 | 3 — Arquitectura C4 | Aplicación |
 | 4 — Infraestructura | Tecnología |
 | 5 — STRIDE | Motivación (Requirement) |
 | 6 — Normatividad | Motivación (Requirement / Constraint) |
-| 7 — Opportunities & Solutions | Implementación y Migración (Plateau / Gap) |
+| 7 — Opportunities & Solutions | Implementación y Migración (Plateau / Gap) y Estrategia (Capability, madurada desde el Taller 0) |
 | 8 — Integración de Vistas | Las 4 capas estructurales en una sola vista |
 | 9 — Presentación Final | Implementación y Migración (Work Package) y Motivación (Goal / Principle / Requirement) — **ambas vistas son entregables obligatorios** |
 
@@ -47,10 +47,10 @@ El modelo de Fundación Salud Viva de la sección 5 de la guía también está d
 2. `File → Import → ArchiMate Model Exchange File...`
 3. Seleccione el archivo `.xml`.
 
-**Nota:** este archivo se escribió siguiendo el esquema oficial (`archimate3_Model.xsd` de The Open Group) y se corrigió tras una primera prueba de importación real en Archi. Si al importar sigue dando error, es más rápido recrear el modelo a mano (son solo 7 elementos y 6 relaciones, los mismos de la sección 5 de la guía) que seguir depurando el XML.
+Este archivo se escribió siguiendo el esquema oficial (`archimate3_Model.xsd` de The Open Group) y se corrigió tras una primera prueba de importación real en Archi. Si al importar sigue dando error, es más rápido recrear el modelo a mano (son solo 7 elementos y 6 relaciones, los mismos de la sección 5 de la guía) que seguir depurando el XML.
 
 ---
 
 ## Licencia
 
-Este repositorio es de uso académico bajo licencia MIT. Hace parte del curso de Arquitectura Empresarial - Universidad de La Sabana.
+© César Augusto Vega Fernández. Material del curso Arquitectura Empresarial, Universidad de La Sabana, bajo licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).

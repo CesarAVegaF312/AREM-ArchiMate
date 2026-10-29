@@ -1,4 +1,4 @@
-# 🧭 Patrón: Modelando Sistemas Agénticos
+# Patrón: Modelando Sistemas Agénticos
 
 Un agente de IA **no es un elemento nuevo del metamodelo de ArchiMate** — se modela con los elementos que ya conoce de la [Guía de Notación ArchiMate](guia_notacion_archimate.md), pero siguiendo un patrón particular. Este documento complementa esa guía para cuando el AS-IS o el TO-BE de un cliente (Taller 3, Taller 7) incluye un agente de IA — un componente que orquesta herramientas y decide, muchas veces de forma autónoma y en varios pasos, cómo resolver una tarea.
 
@@ -24,11 +24,11 @@ Continuando el caso de FarmApp (Talleres 7 a 9): se propone un agente que atiend
 ```mermaid
 flowchart TD
     subgraph negocio["Negocio"]
-        cliente(["🧑 Cliente"])
+        cliente(["Cliente"])
     end
 
     subgraph aplicacion["Aplicación"]
-        agente["🤖 Agente Orquestador de Atención"]
+        agente["Agente Orquestador de Atención"]
         h1["Herramienta: Consultar Inventario"]
         h2["Herramienta: Consultar Estado de Pedido"]
         h3["Herramienta: Generar Recomendación"]
